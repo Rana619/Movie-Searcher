@@ -1,0 +1,35 @@
+ .movieFullInfo{
+     padding: 20px 30px;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     border-bottom: 1px solid lightgray;
+     position: relative;
+     padding-top: 55px;
+ }
+ .movieFullInfo img{
+    object-fit: cover;
+    height: 352px;
+ }
+ .movieInfo{
+     display: flex;
+     justify-content:left;
+     flex-direction: column;
+     text-align: left;
+     padding: 20px;
+     min-width: 340px;
+ }
+ .prName{
+     font-weight: 700;
+ }
+ .prval{
+     color: grey;
+     opacity: 0.8;
+ }
+.offTab{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

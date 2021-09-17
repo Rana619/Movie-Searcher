@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+.header{
+  width: 100%;
+  height: 65px;
+  background-color: aqua;
+  box-shadow: 0px 2px 25px 0px grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  color: grey;
+  font-size: 20px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title img{
+  height: 50px;
+  width: auto;
+  margin-right: 2px;
+}
+.searchBox{
+  margin-right: 15px;
+  background-color: white;
+  width: 50%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.searchBox input{
+  width: 65%;
+  outline: none;
+  font-size: 20px;
+  border-style: none;
+  padding-left: 10px;
+}
+.movieListCont{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.footer{
+  background-color: rgb(68, 61, 61);
+  color: white;
+  padding: 20px;
+}
+@media only screen and (max-width: 1024px){
+  .title{
+    color: grey;
+    font-size: 15px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .searchBox{
+    margin-right: 8px;
+    width: 70%;
+  }
+}

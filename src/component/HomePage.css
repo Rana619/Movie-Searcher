@@ -1,0 +1,71 @@
+#carouselExampleCaptions{
+    background-color: black;
+    width: 98vw;
+    margin-bottom: 40px;
+}
+.carousel-inner{
+    width: 100%;
+}
+.carousel-inner .carousel-item{
+    width: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+.carousel-caption{
+    background-color: rgba(16, 53, 53,0.0);
+    height: 50%;
+    width: 60%;
+    position: absolute;
+    bottom: 17%;
+    left: 10%;
+}
+.carousel-caption h5{
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.carousel-caption p{
+    text-align: left;
+    font-size: 15px;
+}
+.poster_row{
+    display: flex;
+    width: 97vw;
+    overflow-y: hidden;
+    overflow-x:scroll ;
+    margin-bottom: 20px;
+    margin-left: 1vw;
+}
+.poster_row::-webkit-scrollbar {
+    display: none;
+}
+.poster_row {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+.movieCatagroy{
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    width: 95vw;
+}
+@media only screen and (max-width: 1024px){
+    .carousel-item img{
+        height: 60vh;
+    }
+    .carousel-caption{
+        position:absolute;
+        top: 40%;
+        left: 10%;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+}

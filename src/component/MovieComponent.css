@@ -1,0 +1,35 @@
+.movieCont{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+    width: 280px;
+    box-shadow: 0px 3px 6px grey;
+    cursor: pointer;
+    gap: 28px;
+    text-decoration: none;
+    color: white;
+    transition:  transform 450ms;
+}
+.movieCont:hover{
+    transform: scale(1.08);
+}
+.movieCont img{
+    object-fit: cover;
+    height: 362px;
+}
+.movieName{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(197, 186, 186);
+    margin: 15px 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.shortInfo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    opacity: 0.8;
+}
